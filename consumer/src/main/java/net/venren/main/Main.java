@@ -1,9 +1,10 @@
+package net.venren.main;
+
 import org.apache.activemq.ActiveMQConnectionFactory;
 
 import javax.jms.*;
 import java.net.URI;
 import java.util.Objects;
-import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.stream.IntStream;
